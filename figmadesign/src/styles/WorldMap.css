@@ -1,0 +1,32 @@
+.main {
+    color: white;
+}
+
+.location-dot {
+    width: 16px;
+    height: 16px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    z-index: 10;
+    display: none; /* Hide by default */
+}
+
+.tooltip.visible {
+    display: block; /* Show when tooltip is visible */
+}
+
+.tooltip img {
+    width: 100%;
+    height: auto;
+}
